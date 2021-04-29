@@ -1,6 +1,6 @@
 [Netify](https://trusting-lewin-a1b261.netlify.app/) 
 
-###To-Do:
+## To-Do:
 
 - Solve "Click to copy !" appearing everywhere issue.
 - Add alert for "Copied".
