@@ -1,1 +1,57 @@
-/* Other rules */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 48px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1024px;
+
+  margin: 0 auto;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+input {
+  text-align: center;
+  background-color: #f8efef;
+  border: 1px solid #dcc8c8;
+  padding: 15px;
+  width: 620px;
+  font-size: 20px;
+}
+
+.emoji {
+  margin-top: 30px;
+  width: 1024px;
+}
+
+.emoji-sub {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #dcc8c8;
+  background-color: #fcfbfb;
+  padding: 15px;
+
+  margin-bottom: 10px;
+}
+
+.emoji-sub:hover {
+  background-color: #e9e6e6;
+}
+
+.copy {
+  display: none;
+}
+
+.copy:hover {
+  display: inherit;
+}
